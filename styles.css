@@ -141,3 +141,71 @@ button:hover
     bottom: 250px;
     right: 60px;
 }
+@media (max-width: 1200px) {
+    #photo img {
+        width: 70%; /* Reduce image size */
+    }
+
+    #message {
+        font-size: 3.5vw; /* Adjust font size */
+        top: 15%; /* Adjust position */
+    }
+
+    button {
+        width: 70px; /* Smaller buttons */
+        height: 35px;
+        font-size: 12px;
+    }
+
+    #one, #two {
+        bottom: 8%; /* Adjust button position */
+        left: 8%;
+        right: 8%;
+    }
+}
+
+@media (max-width: 768px) {
+    #photo img {
+        width: 60%; /* Further reduce image size */
+    }
+
+    #message {
+        font-size: 3vw; /* Further adjust font size */
+        top: 10%; /* Adjust position */
+    }
+
+    button {
+        width: 60px; /* Smaller buttons */
+        height: 30px;
+        font-size: 10px;
+    }
+
+    #one, #two {
+        bottom: 5%; /* Adjust button position */
+        left: 5%;
+        right: 5%;
+    }
+}
+
+@media (max-width: 480px) {
+    #photo img {
+        width: 50%; /* Reduce image size further */
+    }
+
+    #message {
+        font-size: 2.5vw; /* Further adjust font size */
+        top: 5%; /* Adjust position */
+    }
+
+    button {
+        width: 50px; /* Even smaller buttons */
+        height: 25px;
+        font-size: 9px;
+    }
+
+    #one, #two {
+        bottom: 3%; /* Further adjust button position */
+        left: 3%;
+        right: 3%;
+    }
+}
